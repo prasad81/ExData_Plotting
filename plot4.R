@@ -1,7 +1,6 @@
-getwd()
+
 ##read the data from the file
 data <- read.csv("household_power_consumption.txt",header = TRUE, sep=";",na.string="?")
-summary(data)
 
 ##subset the data with dates 2007-02-01 and 2007-02-02
 datasubset <- data[data$Date  == "1/2/2007"  | data$Date  == "2/2/2007", ]
