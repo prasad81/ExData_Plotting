@@ -1,4 +1,4 @@
- ##read the data from the file
+##read the data from the file
 data <- read.csv("household_power_consumption.txt",header = TRUE, sep=";",na.string="?")
 
 ##subset the data with dates 2007-02-01 and 2007-02-02
